@@ -1,2 +1,2 @@
-# Example
-An example greeter plugin
+# BankScape
+RuneLite plugin for tracking bank data in Old School RuneScape
