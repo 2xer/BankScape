@@ -14,7 +14,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 
 @Slf4j
 @PluginDescriptor(
-	name = "Example"
+	name = "BankScape"
 )
 public class BankScapePlugin extends Plugin
 {
@@ -27,13 +27,13 @@ public class BankScapePlugin extends Plugin
 	@Override
 	protected void startUp() throws Exception
 	{
-		log.info("Example started!");
+		log.info("BankScape started!");
 	}
 
 	@Override
 	protected void shutDown() throws Exception
 	{
-		log.info("Example stopped!");
+		log.info("BankScape stopped!");
 	}
 
 	@Subscribe
