@@ -4,16 +4,16 @@ import net.runelite.client.config.Config;
 import net.runelite.client.config.ConfigGroup;
 import net.runelite.client.config.ConfigItem;
 
-@ConfigGroup("example")
+@ConfigGroup("BankScape")
 public interface BankScapeConfig extends Config
 {
 	@ConfigItem(
-		keyName = "greeting",
-		name = "Welcome Greeting",
-		description = "The message to show to the user when they login"
+		keyName = "bs",
+		name = "BankScape command",
+		description = "::bs performs an action"
 	)
-	default String greeting()
+	default boolean bs()
 	{
-		return "Hello";
+		return true;
 	}
 }
